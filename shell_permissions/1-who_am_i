@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Effective username: " . substitute(system('whoami'), '\n', '', 'g')
+whoami
